@@ -1,5 +1,3 @@
-import axios from "axios";
-
 export const fetchNEOData = async () => {
   try {
     // Load the local file directly from the public folder
