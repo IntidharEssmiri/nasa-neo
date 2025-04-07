@@ -2,7 +2,8 @@
 import React from 'react';
 import Card from './Card';
 import NEOChart from './NEOChart';
-import NEOTable from './NEOTable';
+import NEOTable from './NEOTable'; 
+import NEOHighChart from './NEOHighChart';
 
 const CardContainer: React.FC = () => {
   return (
@@ -14,8 +15,7 @@ const CardContainer: React.FC = () => {
         <NEOTable />
       </Card>
       <Card>
-        <h2>Card 3</h2>
-        <p>Content for the third card.</p>
+        <NEOHighChart />
       </Card>
       <Card>
         <h2>Card 4</h2>
